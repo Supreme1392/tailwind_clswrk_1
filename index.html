@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice tailwind</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div
+      class="wrapper w-[100vw] h-[100vh] flex flex-col justify-center items-center shadow-2xs"
+    >
+      <div class="main shadow-black shadow-lg">
+        <div class="first w-[37rem] h-[8rem] bg-black">
+          <div class="ml-[17rem] pt-[3rem]">
+            <div>
+              <h1 class="text-white text-[1.5rem] font-bold">Retro shoe</h1>
+            </div>
+            <div>
+              <h1 class="text-white text-[1rem]">
+                <i class="fa-solid fa-dollar-sign"></i
+                ><span class="font-bold">89.00</span>
+                <span class="text-cyan-500"> IN STOCK</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="second w-[37rem] h-[16rem] bg-white-700 pt-[1px]">
+          <img
+            src="assets/istockphoto-1350560575-612x612.jpg"
+            alt=""
+            class="w-[192px] h-[260px] mt-[-93px] ml-[32px] shadow-lg drop-shadow-[5px_5px_0px_cyan] absolute"
+          />
+
+          <div class="w-[37rem] h-[16rem]">
+            <div class="size ml-[12rem] mt-[2.5rem]">
+              <ul class="flex justify-evenly">
+                <li
+                  class="text-white bg-black h-[40px] w-[40px] shadow-2xs drop-shadow-[4px_4px_0px_cyan] flex justify-center items-center"
+                >
+                  XS
+                </li>
+                <li class="text-grey">S</li>
+                <li class="text-grey">M</li>
+                <li class="text-grey">L</li>
+                <li class="text-grey">XL</li>
+              </ul>
+            </div>
+
+            <div class="button ml-[15rem] flex gap-3 mt-[3rem] border-3">
+                <button class="bg-cyan-500  font-bold w-[132px] h-[45px] ">Buy  <span>Now</span></button>
+                <button class="font-bold  w-[132px] h-[45px] m-3 bg-cyan-500">ADD TO BAG</button>
+          
+              </div>
+          </div>
+
+          
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
